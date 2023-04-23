@@ -37,12 +37,8 @@ export class Api {
         Accept: "application/json",
       },
     })
-    this.apisauce.addAsyncRequestTransform((request) => async () => {
-      Console.log(request)
-    })
-    this.apisauce.addAsyncResponseTransform((response) => async () => {
-      Console.log(response)
-    })
+    this.apisauce.addAsyncRequestTransform((request) => async () => {})
+    this.apisauce.addAsyncResponseTransform((response) => async () => {})
   }
 }
 

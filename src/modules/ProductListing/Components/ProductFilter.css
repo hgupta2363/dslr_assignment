@@ -1,0 +1,17 @@
+.product_filter{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 30px;
+    background-color: rgb(235, 233, 233);
+    padding: 15px 10px 0px 15px;
+    cursor: pointer;
+    margin-bottom: 0px !important;
+    height:30px;
+    max-width: 150px;
+}
+.filter_value{
+    display: flex;
+ 
+    align-items: center;
+}
